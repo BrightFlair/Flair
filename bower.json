@@ -24,4 +24,9 @@
     "framework",
     "web"
   ],
+
+  "main": [
+    "sass/*",
+    "js/*"
+  ]
 }
