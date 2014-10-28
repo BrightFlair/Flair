@@ -29,6 +29,6 @@
   "main": [
     "scss/*.scss",
     "js/*.js",
-    "font/*.ttf"
+    "font/*"
   ]
 }
