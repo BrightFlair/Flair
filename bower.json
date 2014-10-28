@@ -27,8 +27,8 @@
   ],
 
   "main": [
-    "scss/*",
-    "js/*",
-    "font/*/*"
+    "scss/*.scss",
+    "js/*.js",
+    "font/*.ttf"
   ]
 }
