@@ -1,4 +1,0 @@
-Flair
-=====
-
-Flair UI package
