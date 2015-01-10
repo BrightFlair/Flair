@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Ubuntu Condensed';
+    font-weight: normal;
+    font-style: normal;
+    src: url('/Asset/font/ubuntu-c-webfont.eot');
+    src: url('/Asset/font/ubuntu-c-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/Asset/font/ubuntu-c-webfont.woff2') format('woff2'),
+         url('/Asset/font/ubuntu-c-webfont.woff') format('woff'),
+         url('/Asset/font/ubuntu-c-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/Asset/font/ubuntu-r-webfont.eot');
+    src: url('/Asset/font/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/Asset/font/ubuntu-r-webfont.woff2') format('woff2'),
+         url('/Asset/font/ubuntu-r-webfont.woff') format('woff'),
+         url('/Asset/font/ubuntu-r-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/Asset/font/ubuntu-ri-webfont.eot');
+    src: url('/Asset/font/ubuntu-ri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/Asset/font/ubuntu-ri-webfont.woff2') format('woff2'),
+         url('/Asset/font/ubuntu-ri-webfont.woff') format('woff'),
+         url('/Asset/font/ubuntu-ri-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-style: normal;
+    src: url('/Asset/font/ubuntu-b-webfont.eot');
+    src: url('/Asset/font/ubuntu-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/Asset/font/ubuntu-b-webfont.woff2') format('woff2'),
+         url('/Asset/font/ubuntu-b-webfont.woff') format('woff'),
+         url('/Asset/font/ubuntu-b-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-style: italic;
+    src: url('/Asset/font/ubuntu-bi-webfont.eot');
+    src: url('/Asset/font/ubuntu-bi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/Asset/font/ubuntu-bi-webfont.woff2') format('woff2'),
+         url('/Asset/font/ubuntu-bi-webfont.woff') format('woff'),
+         url('/Asset/font/ubuntu-bi-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/Asset/font/ubuntu-l-webfont.eot');
+    src: url('/Asset/font/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/Asset/font/ubuntu-l-webfont.woff2') format('woff2'),
+         url('/Asset/font/ubuntu-l-webfont.woff') format('woff'),
+         url('/Asset/font/ubuntu-l-webfont.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/Asset/font/ubuntu-li-webfont.eot');
+    src: url('/Asset/font/ubuntu-li-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/Asset/font/ubuntu-li-webfont.woff2') format('woff2'),
+         url('/Asset/font/ubuntu-li-webfont.woff') format('woff'),
+         url('/Asset/font/ubuntu-li-webfont.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: italic;
+}
