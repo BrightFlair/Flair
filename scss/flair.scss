@@ -17,6 +17,6 @@
 }
 
 @each $flair-variation-item in $flair-variation {
-	@import "Component/" + $flair-variation-item + ".scss";
-	@import "Component/" + $flair-variation-item + "-enhanced.scss";
+	@import "Component_" + $flair-variation-item + ".scss";
+	@import "Component_" + $flair-variation-item + "-enhanced.scss";
 }
