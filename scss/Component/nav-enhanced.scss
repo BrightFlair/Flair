@@ -1,4 +1,4 @@
-@import "_variables.scss";
+@media(min-width: $break_small) {
 
 body > header > nav {
 	position: absolute;
@@ -50,4 +50,6 @@ body > header > nav {
 			}
 		}
 	}
+}
+
 }

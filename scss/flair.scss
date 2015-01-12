@@ -1,0 +1,22 @@
+/**
+	This is the baseline stylesheet for all variations of flair.
+	Import this file first before any components.
+ */
+
+@import "../normalize-css/normalize.css";
+@import "Font/ubuntu.scss";
+
+@import "_variables.scss";
+
+@if !variable-exists($flair-variation) {
+	$flair-variation: flair-full;
+}
+
+@if $flair-variation == flair-full {
+	$flair-variation: base form logo nav;
+}
+
+@each $flair-variation-item in $flair-variation {
+	@import "Component/" + $flair-variation-item + ".scss";
+	@import "Component/" + $flair-variation-item + "-enhanced.scss";
+}

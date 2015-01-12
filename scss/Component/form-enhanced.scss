@@ -1,4 +1,4 @@
-@import "_variables.scss";
+@media(min-width: $break_small) {
 
 button, a.btn {
 	display: inline-block;
@@ -31,4 +31,6 @@ form {
 			}
 		}
 	}
+}
+
 }
