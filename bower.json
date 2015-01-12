@@ -28,6 +28,7 @@
 
   "main": [
     "scss/*.scss",
+    "scss/Component/*.scss",
     "js/*.js",
     "font/*"
   ]
