@@ -1,0 +1,175 @@
+$flair-font-prefix: "" !default;
+
+$font-url-base: $flair-font-prefix + ubuntu;
+
+@font-face {
+  font-family: "Ubuntu Condensed";
+  src: url($flair-font-prefix + "ubuntu-c-webfont.eot");
+  src: url($flair-font-prefix + "ubuntu-c-webfont.eot?#iefix") format("embedded-opentype"),
+   url($flair-font-prefix + "ubuntu-c-webfont.woff2") format("woff2"),
+   url($flair-font-prefix + "ubuntu-c-webfont.woff") format("woff"),
+   url($flair-font-prefix + "ubuntu-c-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url($flair-font-prefix + "ubuntu-l-webfont.eot");
+  src: url($flair-font-prefix + "ubuntu-l-webfont.eot?#iefix") format("embedded-opentype"),
+   url($flair-font-prefix + "ubuntu-l-webfont.woff2") format("woff2"),
+   url($flair-font-prefix + "ubuntu-l-webfont.woff") format("woff"),
+   url($flair-font-prefix + "ubuntu-l-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url($flair-font-prefix + "ubuntu-li-webfont.eot");
+  src: url($flair-font-prefix + "ubuntu-li-webfont.eot?#iefix") format("embedded-opentype"),
+   url($flair-font-prefix + "ubuntu-li-webfont.woff2") format("woff2"),
+   url($flair-font-prefix + "ubuntu-li-webfont.woff") format("woff"),
+   url($flair-font-prefix + "ubuntu-li-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url($flair-font-prefix + "ubuntu-r-webfont.eot");
+  src: url($flair-font-prefix + "ubuntu-r-webfont.eot?#iefix") format("embedded-opentype"),
+   url($flair-font-prefix + "ubuntu-r-webfont.woff2") format("woff2"),
+   url($flair-font-prefix + "ubuntu-r-webfont.woff") format("woff"),
+   url($flair-font-prefix + "ubuntu-r-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url($flair-font-prefix + "ubuntu-ri-webfont.eot");
+  src: url($flair-font-prefix + "ubuntu-ri-webfont.eot?#iefix") format("embedded-opentype"),
+   url($flair-font-prefix + "ubuntu-ri-webfont.woff2") format("woff2"),
+   url($flair-font-prefix + "ubuntu-ri-webfont.woff") format("woff"),
+   url($flair-font-prefix + "ubuntu-ri-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url($flair-font-prefix + "ubuntu-b-webfont.eot");
+  src: url($flair-font-prefix + "ubuntu-b-webfont.eot?#iefix") format("embedded-opentype"),
+   url($flair-font-prefix + "ubuntu-b-webfont.woff2") format("woff2"),
+   url($flair-font-prefix + "ubuntu-b-webfont.woff") format("woff"),
+   url($flair-font-prefix + "ubuntu-b-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url($flair-font-prefix + "ubuntu-bi-webfont.eot");
+  src: url($flair-font-prefix + "ubuntu-bi-webfont.eot?#iefix") format("embedded-opentype"),
+   url($flair-font-prefix + "ubuntu-bi-webfont.woff2") format("woff2"),
+   url($flair-font-prefix + "ubuntu-bi-webfont.woff") format("woff"),
+   url($flair-font-prefix + "ubuntu-bi-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url($flair-font-prefix + "ubuntu-mono-webfont.eot");
+  src: url($flair-font-prefix + "ubuntu-mono-webfont.eot?#iefix") format("embedded-opentype"),
+   url($flair-font-prefix + "ubuntu-mono-webfont.woff2") format("woff2"),
+   url($flair-font-prefix + "ubuntu-mono-webfont.woff") format("woff"),
+   url($flair-font-prefix + "ubuntu-mono-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url($flair-font-prefix + "ubuntu-monoi-webfont.eot");
+  src: url($flair-font-prefix + "ubuntu-monoi-webfont.eot?#iefix") format("embedded-opentype"),
+   url($flair-font-prefix + "ubuntu-monoi-webfont.woff2") format("woff2"),
+   url($flair-font-prefix + "ubuntu-monoi-webfont.woff") format("woff"),
+   url($flair-font-prefix + "ubuntu-monoi-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url($flair-font-prefix + "ubuntu-monob-webfont.eot");
+  src: url($flair-font-prefix + "ubuntu-monob-webfont.eot?#iefix") format("embedded-opentype"),
+   url($flair-font-prefix + "ubuntu-monob-webfont.woff2") format("woff2"),
+   url($flair-font-prefix + "ubuntu-monob-webfont.woff") format("woff"),
+   url($flair-font-prefix + "ubuntu-monob-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url($flair-font-prefix + "ubuntu-monobi-webfont.eot");
+  src: url($flair-font-prefix + "ubuntu-monobi-webfont.eot?#iefix") format("embedded-opentype"),
+   url($flair-font-prefix + "ubuntu-monobi-webfont.woff2") format("woff2"),
+   url($flair-font-prefix + "ubuntu-monobi-webfont.woff") format("woff"),
+   url($flair-font-prefix + "ubuntu-monobi-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/**
+Below is the much tidier representation of this file in Sass 3.3 style.
+leafo's sassphp is not yet compatible with 3.3 features.
+
+@if !variable-exists($flair-font-prefix) {
+	$flair-font-prefix: "";
+}
+
+$font-url-base: $flair-font-prefix + ubuntu;
+$font-name-base: "ubuntu";
+$font-name-list: (
+	"Ubuntu Condensed": (
+		"variation-map": (
+			"c": (400, normal),
+		)
+	),
+	"Ubuntu": (
+		"variation-map": (
+			"l": (300, normal),
+			"li": (300, italic),
+			"r": (400, normal),
+			"ri": (400, italic),
+			"b": (700, normal),
+			"bi": (700, italic),
+		)
+	),
+	"Ubuntu Mono": (
+		"variation-map": (
+			"mono": (400, normal),
+			"monoi": (400, italic),
+			"monob": (700, normal),
+			"monobi": (700, italic),
+		)
+	),
+);
+
+@each $font-name in map-keys($font-name-list) {
+	$map: map-get($font-name-list, $font-name);
+	@each $variation in map-get($map, "variation-map") {
+
+		@font-face {
+			font-family: $font-name;
+			$url: $font-name-base
+				+ "-"
+				+ nth($variation, 1)
+				+ "-webfont";
+			src: url($url + ".eot");
+			src: url($url + ".eot?#iefix")
+				format('embedded-opentype'),
+			url($url + ".woff2") format("woff2"),
+			url($url + ".woff") format("woff"),
+			url($url + ".ttf") format("truetype");
+			$detail: nth($variation, 2);
+			font-weight: nth($detail, 1);
+			font-style: nth($detail, 2);
+		}
+	}
+}
+**/
