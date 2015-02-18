@@ -119,9 +119,8 @@ Below is the much tidier representation of this file in Sass 3.3 style.
 leafo's sassphp is not yet compatible with 3.3 features.
 
 $flair-font-prefix: "" !default;
+$font-name-base: $flair-font-prefix + ubuntu;
 
-$font-url-base: $flair-font-prefix + ubuntu;
-$font-name-base: "ubuntu";
 $font-name-list: (
 	"Ubuntu Condensed": (
 		"variation-map": (
