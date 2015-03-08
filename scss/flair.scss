@@ -1,12 +1,12 @@
 /**
-	This is the baseline stylesheet for all variations of flair.
-	Import this file first before any components.
+ * This is the baseline stylesheet for all variations of flair.
+ * Import this file first before any components.
  */
 
-$flair-relative-path: ".." !default;
-$flair-font-client-prefix: "bower_components/flair/font/" !default;
+$flair-relative-path: "./.." !default;
+$flair-font-client-prefix: "./bower_components/flair/font/" !default;
 
-@import $flair-relative-path + "/../normalize-css/normalize.css";
+@import $flair-relative-path + "/../normalize-scss/_normalize.scss";
 @import $flair-relative-path + "/font/ubuntu.font.scss";
 
 @import "_variables.scss";

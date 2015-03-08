@@ -3,6 +3,12 @@ $col_heading: #888 !default;
 $col_anchor: desaturate(lighten(blue, 0.2), 0.5) !default;
 $col_select: blue !default;
 
+$col_grid_major: rgba(#000, 0.1) !default;
+$col_grid_minor: rgba(#000, 0.05) !default;
+$size_grid_major: 8rem !default;
+$size_grid_minor: 1rem !default;
+$offset_grid: 1rem 1rem !default;
+
 $break_small: 480px !default;
 $break_medium: 640px !default;
 $break_large: 960px !default;
