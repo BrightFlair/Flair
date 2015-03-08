@@ -1,0 +1,405 @@
+@import "../../normalize-css/normalize.css";
+/**
+ This is the baseline stylesheet for all variations of flair.
+ Import this file first before any components.
+ */
+@font-face {
+  font-family: "Ubuntu Condensed";
+  src: url("bower_components/flair/font/ubuntu-c-webfont.eot");
+  src: url("bower_components/flair/font/ubuntu-c-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/flair/font/ubuntu-c-webfont.woff2") format("woff2"), url("bower_components/flair/font/ubuntu-c-webfont.woff") format("woff"), url("bower_components/flair/font/ubuntu-c-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("bower_components/flair/font/ubuntu-l-webfont.eot");
+  src: url("bower_components/flair/font/ubuntu-l-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/flair/font/ubuntu-l-webfont.woff2") format("woff2"), url("bower_components/flair/font/ubuntu-l-webfont.woff") format("woff"), url("bower_components/flair/font/ubuntu-l-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("bower_components/flair/font/ubuntu-li-webfont.eot");
+  src: url("bower_components/flair/font/ubuntu-li-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/flair/font/ubuntu-li-webfont.woff2") format("woff2"), url("bower_components/flair/font/ubuntu-li-webfont.woff") format("woff"), url("bower_components/flair/font/ubuntu-li-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("bower_components/flair/font/ubuntu-r-webfont.eot");
+  src: url("bower_components/flair/font/ubuntu-r-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/flair/font/ubuntu-r-webfont.woff2") format("woff2"), url("bower_components/flair/font/ubuntu-r-webfont.woff") format("woff"), url("bower_components/flair/font/ubuntu-r-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("bower_components/flair/font/ubuntu-ri-webfont.eot");
+  src: url("bower_components/flair/font/ubuntu-ri-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/flair/font/ubuntu-ri-webfont.woff2") format("woff2"), url("bower_components/flair/font/ubuntu-ri-webfont.woff") format("woff"), url("bower_components/flair/font/ubuntu-ri-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("bower_components/flair/font/ubuntu-b-webfont.eot");
+  src: url("bower_components/flair/font/ubuntu-b-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/flair/font/ubuntu-b-webfont.woff2") format("woff2"), url("bower_components/flair/font/ubuntu-b-webfont.woff") format("woff"), url("bower_components/flair/font/ubuntu-b-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("bower_components/flair/font/ubuntu-bi-webfont.eot");
+  src: url("bower_components/flair/font/ubuntu-bi-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/flair/font/ubuntu-bi-webfont.woff2") format("woff2"), url("bower_components/flair/font/ubuntu-bi-webfont.woff") format("woff"), url("bower_components/flair/font/ubuntu-bi-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url("bower_components/flair/font/ubuntu-mono-webfont.eot");
+  src: url("bower_components/flair/font/ubuntu-mono-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/flair/font/ubuntu-mono-webfont.woff2") format("woff2"), url("bower_components/flair/font/ubuntu-mono-webfont.woff") format("woff"), url("bower_components/flair/font/ubuntu-mono-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url("bower_components/flair/font/ubuntu-monoi-webfont.eot");
+  src: url("bower_components/flair/font/ubuntu-monoi-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/flair/font/ubuntu-monoi-webfont.woff2") format("woff2"), url("bower_components/flair/font/ubuntu-monoi-webfont.woff") format("woff"), url("bower_components/flair/font/ubuntu-monoi-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url("bower_components/flair/font/ubuntu-monob-webfont.eot");
+  src: url("bower_components/flair/font/ubuntu-monob-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/flair/font/ubuntu-monob-webfont.woff2") format("woff2"), url("bower_components/flair/font/ubuntu-monob-webfont.woff") format("woff"), url("bower_components/flair/font/ubuntu-monob-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url("bower_components/flair/font/ubuntu-monobi-webfont.eot");
+  src: url("bower_components/flair/font/ubuntu-monobi-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/flair/font/ubuntu-monobi-webfont.woff2") format("woff2"), url("bower_components/flair/font/ubuntu-monobi-webfont.woff") format("woff"), url("bower_components/flair/font/ubuntu-monobi-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+/**
+ Below is the much tidier representation of this file in Sass 3.3 style.
+ leafo's sassphp is not yet compatible with 3.3 features.
+ $flair-font-client-prefix: "" !default;
+ $font-name-base: $flair-font-client-prefix + ubuntu;
+ $font-name-list: (
+ "Ubuntu Condensed": (
+ "variation-map": (
+ "c": (400, normal),
+ )
+ ),
+ "Ubuntu": (
+ "variation-map": (
+ "l": (300, normal),
+ "li": (300, italic),
+ "r": (400, normal),
+ "ri": (400, italic),
+ "b": (700, normal),
+ "bi": (700, italic),
+ )
+ ),
+ "Ubuntu Mono": (
+ "variation-map": (
+ "mono": (400, normal),
+ "monoi": (400, italic),
+ "monob": (700, normal),
+ "monobi": (700, italic),
+ )
+ ),
+ );
+ @each $font-name in map-keys($font-name-list) {
+ $map: map-get($font-name-list, $font-name);
+ @each $variation in map-get($map, "variation-map") {
+ @font-face {
+ font-family: $font-name;
+ $url: $font-name-base
+ + "-"
+ + nth($variation, 1)
+ + "-webfont";
+ src: url($url + ".eot");
+ src: url($url + ".eot?#iefix")
+ format('embedded-opentype'),
+ url($url + ".woff2") format("woff2"),
+ url($url + ".woff") format("woff"),
+ url($url + ".ttf") format("truetype");
+ $detail: nth($variation, 2);
+ font-weight: nth($detail, 1);
+ font-style: nth($detail, 2);
+ }
+ }
+ }
+ **/
+::-moz-selection {
+  background: #f6af1c;
+  color: #fff; }
+
+::selection {
+  background: #f6af1c;
+  color: #fff; }
+
+a {
+  color: #8c8cd9;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+  a:active {
+    background: #ddd; }
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: lighter;
+  color: #555; }
+
+body > main > h1, body > main > h2, body > main > h3, body > main > h4, body > main > h5, body > main > h6 {
+  color: #888;
+  margin: 0 0.5rem;
+  margin-top: 1.62rem;
+  margin-bottom: 0.81rem; }
+  body > main > h1 {
+    font-family: "Ubuntu Condensed";
+    font-weight: normal;
+    font-size: 2em; }
+  body > main > h2, body > main > h3, body > main > h4, body > main > h5, body > main > h6 {
+    font-family: "Ubuntu";
+    font-weight: lighter; }
+  body > main > h2 {
+    font-size: 1.62em; }
+  body > main > h3 {
+    font-size: 1.31em; }
+  body > main > h4 {
+    font-size: 1.06em; }
+  body > main > h5 {
+    font-size: 1.06em; }
+  body > main > h6 {
+    font-size: 1.06em; }
+  body > main > p {
+    margin: 0 0.5rem;
+    margin-bottom: 1.62em;
+    line-height: 1.62em;
+    max-width: 40em; }
+
+@media (min-width: 480px) {
+    body > main > h1, body > main > h2, body > main > h3, body > main > h4, body > main > h5, body > main > h6, body > main > p, body > main > form {
+      margin-left: 6.25rem; } }
+  @media (min-width: 480px) and (min-width: 640px) {
+      body {
+        font-size: 1.25em; } }
+
+button, a.btn {
+  font-size: 1rem;
+  display: block;
+  margin: 0 auto;
+  padding: 1em 2em;
+  border: 2px solid transparent;
+  font-family: "Ubuntu Condensed";
+  border-radius: 0.5em;
+  opacity: 0.95;
+  outline: none;
+  background: #ddd; }
+  button:not(:last-child), a.btn:not(:last-child) {
+    margin-bottom: 0.5em; }
+  button:hover, a.btn:hover, button:focus, a.btn:focus {
+    border-color: #aaa; }
+  button:active, a.btn:active {
+    background: #aaa; }
+  button.primary, a.btn.primary {
+    color: white;
+    background: #8c8cd9; }
+  button.primary:hover, a.btn.primary:hover, button.primary:focus, a.btn.primary:focus {
+    border-color: #4040bf; }
+  button.primary:active, a.btn.primary:active {
+    background: #4040bf; }
+
+form {
+  margin: 0 0.5rem; }
+  form label {
+    display: block;
+    margin-bottom: 1em; }
+  form label > span {
+    display: block; }
+  form input:not([type]), form [type='text'], form [type='password'], form [type='number'], form [type='tel'], form [type='date'], form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none; }
+  form input:not([type]):hover, form [type='text']:hover, form [type='password']:hover, form [type='number']:hover, form [type='tel']:hover, form [type='date']:hover, form textarea:hover {
+    border-bottom-color: #8c8cd9; }
+  form input:not([type]):focus, form [type='text']:focus, form [type='password']:focus, form [type='number']:focus, form [type='tel']:focus, form [type='date']:focus, form textarea:focus {
+    border-bottom-color: #8c8cd9;
+    box-shadow: inset 0 -1px 0 #8c8cd9; }
+  form input:not([type]):active, form [type='text']:active, form [type='password']:active, form [type='number']:active, form [type='tel']:active, form [type='date']:active, form textarea:active {
+    background: #ddd; }
+  form textarea {
+    min-height: 5em;
+    resize: none; }
+  form label [type='checkbox'], form label [type='radio'] {
+    display: none; }
+    form label [type='checkbox']:checked + span::after, form label [type='radio']:checked + span::after {
+      opacity: 1; }
+    form label [type='checkbox'] + span, form label [type='radio'] + span {
+      position: relative;
+      padding-left: 1.5em; }
+      form label [type='checkbox'] + span:hover::before, form label [type='radio'] + span:hover::before {
+        opacity: 1; }
+      form label [type='checkbox'] + span:active::before, form label [type='radio'] + span:active::before {
+        background: #ddd; }
+      form label [type='checkbox'] + span::before, form label [type='radio'] + span::before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1em;
+        height: 1em;
+        border: 2px solid #555;
+        opacity: 0.5; }
+  form label [type='checkbox'] + span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0.25em;
+    top: 0.2em;
+    width: 0.4em;
+    height: 0.075em;
+    border: 3px solid #8c8cd9;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0; }
+  form label [type='radio'] + span::before {
+    border-radius: 1em; }
+    form label [type='radio'] + span::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0.25em;
+      top: 0.25em;
+      width: 0;
+      height: 0;
+      border: 0.375em solid #8c8cd9;
+      border-radius: 1em;
+      opacity: 0; }
+
+@media (min-width: 480px) {
+    button, a.btn {
+      display: inline-block;
+      margin: 0; }
+    form {
+      max-width: 40em; } }
+  @media (min-width: 480px) and (min-width: 640px) {
+      form label [type='checkbox'] + span::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0.225em;
+        top: 0.2em;
+        width: 0.4em;
+        height: 0.075em;
+        border: 4px solid #8c8cd9;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        opacity: 0; } }
+
+body > header #logo {
+  display: block;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  text-align: center; }
+  body > header #logo a {
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem;
+    padding-left: 2.5em;
+    height: 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: black; }
+  body > header #logo a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0.5rem;
+    width: 2em;
+    height: 2em;
+    background: #aaa; }
+
+@media (min-width: 480px) {
+    body > header #logo {
+      position: relative;
+      z-index: 100; }
+      body > header #logo a {
+        position: relative;
+        z-index: 100; }
+        body > header #logo a::before {
+          position: fixed;
+          z-index: 100;
+          top: 0;
+          left: 0;
+          margin: 0.5rem; } }
+
+body > header > nav ul {
+  margin: 0 0.5rem;
+  padding: 0;
+  border-radius: 0.5em;
+  overflow: hidden;
+  list-style-type: none; }
+  body > header > nav ul li {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 0.8em;
+    font-family: "Ubuntu Condensed";
+    border-bottom: 1px solid white;
+    text-align: center; }
+    body > header > nav ul li.selected a {
+      background: #4040bf; }
+    body > header > nav ul li:nth-of-type(odd) {
+      border-right: 1px solid white; }
+    body > header > nav ul li a {
+      display: block;
+      padding: 0.5em;
+      background: #8c8cd9;
+      color: white; }
+    body > header > nav ul li a:active {
+      background: #4040bf; }
+
+@media (min-width: 480px) {
+    body > header > nav {
+      position: absolute;
+      top: 0.5rem;
+      right: 0rem; }
+      body > header > nav ul {
+        border-radius: 0; }
+        body > header > nav ul li {
+          width: auto;
+          font-size: 0.9em;
+          height: 5rem; }
+          body > header > nav ul li:nth-of-type(odd), body > header > nav ul li:nth-of-type(even) {
+            border-right: none; }
+          body > header > nav ul li:last-of-type {
+            border-right: none; }
+          body > header > nav ul li.selected a {
+            background: transparent;
+            border-bottom: 4px solid #8c8cd9; }
+          body > header > nav ul li a {
+            box-sizing: border-box;
+            height: 100%;
+            background: transparent;
+            color: #8c8cd9;
+            line-height: 5rem; }
+            body > header > nav ul li a:hover {
+              color: #4040bf;
+              text-decoration: underline; }
+            body > header > nav ul li a:active {
+              background: #ddd; } }
+  @media (min-width: 480px) and (min-width: 640px) {
+            body > header > nav ul li a {
+              padding: 0 1em; } }

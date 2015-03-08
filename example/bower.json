@@ -1,0 +1,14 @@
+{
+  "name": "flair-example",
+  "homepage": "http://example.flair.brightflair.com",
+
+  "authors": [
+    "Greg Bowler <greg.bowler@g105b.com>"
+  ],
+
+  "license": "MIT",
+
+  "dependencies": {
+    "flair": "latest"
+  }
+}

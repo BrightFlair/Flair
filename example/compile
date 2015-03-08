@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+include __DIR__ . '/pscss/Colors.php';
+include __DIR__ . '/pscss/Compiler.php';
+include __DIR__ . '/pscss/Formatter.php';
+include __DIR__ . '/pscss/Formatter/Compressed.php';
+include __DIR__ . '/pscss/Formatter/Crunched.php';
+include __DIR__ . '/pscss/Formatter/Expanded.php';
+include __DIR__ . '/pscss/Formatter/Nested.php';
+include __DIR__ . '/pscss/Parser.php';
+include __DIR__ . '/pscss/Server.php';
+
+$parser = new Leafo\ScssPhp\Compiler();
+$compiled = $parser->compile(file_get_contents("example-source.scss"));
+file_put_contents("example.css", $compiled);
