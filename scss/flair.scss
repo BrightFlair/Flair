@@ -4,9 +4,9 @@
  */
 
 $flair-relative-path: ".." !default;
-$flair-font-server-prefix: "" !default;
+$flair-font-client-prefix: "bower_components/flair/font/" !default;
 
-@import $flair-relative-path + "/../normalize/normalize.css";
+@import $flair-relative-path + "/../normalize-css/normalize.css";
 @import $flair-relative-path + "/font/ubuntu.font.scss";
 
 @import "_variables.scss";
