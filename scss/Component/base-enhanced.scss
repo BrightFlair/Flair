@@ -1,13 +1,15 @@
 @media(min-width: $break_small) {
 
-body {
-	@media(min-width:640px) {
-		font-size: 1.25em;
+html {
+	@media(min-width: $break_medium) {
+		font-size: 20px;
 	}
+}
 
+body {
 	>main {
 		>h1, >h2, >h3, >h4, >h5, >h6, >p, >form {
-			margin-left: 6.25rem;
+			margin-left: 6rem;
 		}
 	}
 }

@@ -1,18 +1,21 @@
 body>header #logo {
 	display: block;
 	margin: 0 auto;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	text-align: center;
+	font-weight: normal;
 
 	a {
 		position: relative;
 		display: inline-block;
-		padding: 0.5rem;
-		padding-left: 2.5em;
+		margin: 1rem;
+		margin-right: 0;
+		padding-left: 2em;
 		height: 2em;
 		line-height: 2em;
 		text-decoration: none;
 		color: black;
+		text-align: left;
 
 		&::before {
 			content: "";
@@ -20,10 +23,13 @@ body>header #logo {
 			top: 0;
 			left: 0;
 
-			margin: 0.5rem;
 			width: 2em;
 			height: 2em;
 			background: #aaa;
+		}
+
+		span {
+			padding-left: 0.75rem;
 		}
 	}
 }
