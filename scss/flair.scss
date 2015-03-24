@@ -4,10 +4,11 @@
  */
 
 $flair-relative-path: "./.." !default;
-$flair-font-client-prefix: "./bower_components/flair/font/" !default;
+$flair-font-server-prefix: "./../font" !default;
+$flair-font-client-prefix: "./bower_components/flair/font" !default;
 
 @import $flair-relative-path + "/../normalize-scss/_normalize.scss";
-@import $flair-relative-path + "/font/ubuntu.font.scss";
+@import $flair-font-server-prefix + "/ubuntu.font.scss";
 
 @import "_variables.scss";
 
@@ -16,7 +17,7 @@ $flair-font-client-prefix: "./bower_components/flair/font/" !default;
 }
 
 @if $flair-variation == flair-full {
-	$flair-variation: base form logo nav;
+	$flair-variation: base form logo nav footer;
 }
 
 @each $flair-variation-item in $flair-variation {

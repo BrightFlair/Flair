@@ -1,0 +1,8 @@
+body>footer {
+	background: $col_light;
+
+	>h1, >h2, >h3, >h4, >h5, >h6, >p, >form, >blockquote,
+	>ul, >ol, >dd, >dl, >dt {
+		margin: 1rem;
+	}
+}

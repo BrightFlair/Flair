@@ -2,8 +2,9 @@
 
 body > header > nav {
 	position: absolute;
-	top: 0.5rem;
-	right: 0rem;
+	top: 0;
+	right: 0;
+	$height: 6rem;
 
 	ul {
 		border-radius: 0;
@@ -11,7 +12,9 @@ body > header > nav {
 		li {
 			width: auto;
 			font-size: 0.9em;
-			height: 5rem;
+			height: $height;
+			font-family: "Ubuntu Condensed";
+			font-weight: normal;
 
 			&:nth-of-type(odd), &:nth-of-type(even) {
 				border-right: none;
@@ -23,8 +26,7 @@ body > header > nav {
 
 			&.selected {
 				a {
-					background: transparent;
-					border-bottom: 4px solid $col_anchor;
+					background: $col_brand;
 				}
 			}
 
@@ -32,12 +34,9 @@ body > header > nav {
 				box-sizing: border-box;
 				height: 100%;
 				background: transparent;
-				color: $col_anchor;
-				line-height: 5rem;
-
-				@media(min-width:640px) {
-					padding: 0 1em;
-				}
+				color: $col_body;
+				line-height: $height;
+				padding: 0 0.5em;
 
 				&:hover {
 					color: darken($col_anchor, 0.2);
@@ -45,7 +44,7 @@ body > header > nav {
 				}
 
 				&:active {
-					background: #ddd;
+					background: transparent;
 				}
 			}
 		}

@@ -8,8 +8,8 @@ html {
 
 body {
 	>main {
-		>h1, >h2, >h3, >h4, >h5, >h6, >p, >form {
-			margin-left: 6rem;
+		>h1, >h2, >h3, >h4, >h5, >h6, >p, >form, >blockquote, >ul, >ol {
+			margin-left: $size_gutter;
 		}
 	}
 }
