@@ -15,6 +15,7 @@ body > header > nav {
 			height: $height;
 			font-family: "Ubuntu Condensed";
 			font-weight: normal;
+			border: none;
 
 			&:nth-of-type(odd), &:nth-of-type(even) {
 				border-right: none;

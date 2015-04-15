@@ -6,15 +6,24 @@ html {
 	}
 }
 
-body>main,body>main>article {
-
-	>h1, >h2, >h3, >h4, >h5, >h6, >p, >form, >ul, >ol {
+body>main, body>main>article, body>main>article>header,
+body>main>article .content {
+	>blockquote,
+	>h1, >h2, >h3, >h4, >h5, >h6,
+	>p, >form, >ul, >ol {
 		margin-left: $size_gutter;
-	}
-}
 
-body>main>article>blockquote {
-	margin-left: $size_gutter - 1rem;
+		h1, h2, h3, h4, h5, h6, p {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+
+	>header {
+		>* {
+			margin-left: $size_gutter;
+		}
+	}
 }
 
 }
