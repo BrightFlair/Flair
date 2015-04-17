@@ -52,7 +52,7 @@ form {
 
 	input:not([type]),
 	[type='text'], [type='password'],
-	[type='number'], [type='tel'],
+	[type='number'], [type='tel'], [type='email'],
 	[type='date'],
 	textarea {
 		box-sizing: border-box;
