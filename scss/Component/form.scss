@@ -36,10 +36,16 @@ button, a.btn {
 			background: darken($col_anchor, 0.2);
 		}
 	}
+
+	&.cta, &.action {
+		background: $col_action;
+		color: white;
+	}
 }
 
 form {
 	margin: 0 0.5rem;
+	margin-bottom: 1rem;
 
 	label {
 		display: block;
