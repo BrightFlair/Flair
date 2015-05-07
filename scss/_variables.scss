@@ -5,6 +5,9 @@ $col_light: #eee !default;
 $col_anchor: desaturate(lighten(blue, 0.1), 0.1) !default;
 $col_select: blue !default;
 $col_brand: $col_grey !default;
+$col_action: invert($col_brand) !default;
+$col_positive: #38973e !default;
+$col_negative: #ba2121 !default;
 
 $col_grid_major: rgba(#000, 0.1) !default;
 $col_grid_minor: rgba(#000, 0.05) !default;
@@ -16,7 +19,7 @@ $break_small: 480px !default;
 $break_medium: 640px !default;
 $break_large: 960px !default;
 
-$size_gutter: 6rem;
+$size_gutter: 6rem !default;
 
 // Notes:
 // golden ratio: 0.81 1, 1.62, 2.62, 4.24, 6.85, 11.09
