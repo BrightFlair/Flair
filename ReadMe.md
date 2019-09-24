@@ -1,10 +1,10 @@
 # Progressive, declarative UI system, powered by Sass placeholder selectors
 
-Progressive means you can `@extend` as much or as little of Flair as you want into your stylesheet. Only areas of the system that you actually use will be rendered to CSS.
+Progressive means you can `@extend` as much or as little as you want into your stylesheet. Only areas of the system that you actually use will be rendered to CSS.
 
 Declarative means your style definitions are made server-side in your Sass sourcecode, not in your HTML. This allows the markup to be minimal and semantic, so you can switch stylesheets without changing HTML.
 
-Sass placeholder selectors are used to define a named selector. Placeholders can extend others, providing the benefits of object oriented programming. This allows your design flair to be added in layers on top of a base style. Layers can start small, describing the style of particular elements, and extend right up to whole page layouts.
+Sass placeholder selectors are used to define named selectors. Placeholders can extend others, providing the benefits of object oriented programming. This allows your design flair to be added in layers on top of a base style. Layers can start small, describing the style of particular elements, and extend right up to whole page layouts.
 
 Example:
 
@@ -23,7 +23,7 @@ Example:
 </body>
 ```
 
-```sass
+```scss
 body#uri--index {
         @extend %page-homepage;
 
