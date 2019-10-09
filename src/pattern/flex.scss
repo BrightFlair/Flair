@@ -1,0 +1,11 @@
+%p-flex {
+	display: flex;
+	flex-direction: column;
+
+	&-center {
+		@extend %p-flex;
+
+		align-items: center;
+		justify-content: center;
+	}
+}

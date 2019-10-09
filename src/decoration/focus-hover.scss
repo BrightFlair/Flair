@@ -1,0 +1,8 @@
+%d-focus-hover {
+	outline: none;
+	outline-offset: 0;
+
+	&:focus, &:hover {
+		outline: 2px solid $palette-1;
+	}
+}
