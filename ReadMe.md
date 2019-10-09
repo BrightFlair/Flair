@@ -6,13 +6,15 @@ Declarative means your style definitions are made server-side in your Sass sourc
 
 Sass placeholder selectors are used to define named selectors. Placeholders can extend others, providing the benefits of object oriented programming. This allows your design flair to be added in layers on top of a base style. Layers can start small, describing the style of particular elements, and extend right up to whole page layouts.
 
-## Flair provides layers to your stylesheets:
+## Directory structure of Flair:
 
-1. **Default variables** for your application's override, such as colours, sizes and breakpoints.
-2. **Element selectors**, providing a normalised starting point for all elements.
-3. **Pattern placeholders**, providing non-decorated layout placeholders for application to elements or other placeholders.
-4. **Component placeholders**, providing pre-written collections of pattern placeholders for applying to HTML structures within your application.
-5. **Layout placeholders**, providing pre-written collections of components for common layouts.
+Flair uses this directory structure to organise the layers of the stylesheets. You can use this structure within your application too, but it is not necessary. The styles provided by Flair are intentionally basic but allow your stylesheets to extend them and apply your own brand. 
+
+1. **Variable**: default variables for your application to override where necessary e.g. palette, size and breakpoint.
+2. **Element**: normalisation for all elements e.g. h1, button, body.
+3. **Pattern**: non-decorated positioning and basic styles for extension by components or other placeholders e.g. padding, margin, alignment, column/row application.
+4. **Decoration**: decorated styles, typically applied over basic patterns e.g. borders, backgrounds, interaction effects.
+5. **Layout**, providing pre-written collections of components for common layouts e.g. blog-comments
 
 After importing flair.scss, your application styles can apply patterns, components and layouts to its selectors, override colour palettes and sizing variables, then create or extend its own patterns, components and layouts.
 
@@ -28,3 +30,7 @@ Declare any variables that you wish to overwrite before you import flair, and im
 @import "mycomponent/product";
 @import "mylayout/shop";
 ```
+
+## Documentation:
+
+Read the full documentation at the Github wiki: https://github.com/BrightFlair/flair/wiki
