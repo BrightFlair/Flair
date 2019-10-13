@@ -1,0 +1,5 @@
+a {
+	&.button {
+		@extend %user-input, %d-button;
+	}
+}

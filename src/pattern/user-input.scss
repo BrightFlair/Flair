@@ -7,4 +7,9 @@
 	@extend %d-focus-hover;
 
 	font: inherit;
+	outline: none;
+
+	padding: 0.5rem;
+	border: none;
+	border-radius: $size-border;
 }

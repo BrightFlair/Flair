@@ -1,0 +1,7 @@
+input {
+	@extend %user-input;
+
+	&:not([type=checkbox]):not([type=radio]) {
+		@extend %d-text-input;
+	}
+}

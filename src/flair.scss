@@ -31,21 +31,23 @@ html {
 @import "variable/font";
 @import "variable/break";
 
-@import "placeholder/user-input";
-
+@import "pattern/user-input";
 @import "pattern/flex";
-@import "pattern/padding";
 
 @import "decoration/focus-hover";
+@import "decoration/text-input";
+@import "decoration/button";
+@import "decoration/select";
 
-@import "element/body";
-@import "element/h";
-@import "element/ul-ol-menu";
-@import "element/input";
-@import "element/button";
-@import "element/textarea";
-@import "element/select";
-@import "element/main";
-@import "element/img";
+@import "reset/body";
+@import "reset/h";
+@import "reset/ul-ol-menu";
+@import "reset/input";
+@import "reset/button";
+@import "reset/textarea";
+@import "reset/select";
+@import "reset/main";
+@import "reset/img";
+@import "reset/a";
 
-@import "layout/form-fields";
+@import "layout/form-labels";

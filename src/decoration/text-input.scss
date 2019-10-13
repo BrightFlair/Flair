@@ -1,0 +1,22 @@
+%d-text-input {
+	width: 100%;
+	background: $palette-textarea;
+
+	&:focus {
+		background: $palette-textarea-focus;
+	}
+
+	&:active {
+		background: darken($palette-textarea, 5%);
+	}
+
+	&:invalid:not(:placeholder-shown):not(:focus) {
+		box-shadow: 0 0 0 $size-border $palette-invalid,
+			inset 0 0 0 100px rgba($palette-invalid, 0.1);
+	}
+
+	&::selection {
+		background: $palette-button-primary;
+		color: $palette-button-primary-text;
+	}
+}

@@ -1,5 +1,9 @@
-$size-small: 0.5rem;
+$size-spacing-small: 2rem !default;
+$size-spacing-medium: 6rem !default;
+$size-spacing-large: 12rem !default;
 
-$size-box-small: 2rem;
-$size-box-medium: 6rem;
-$size-box-large: 16rem;
+$size-card-small: 8rem !default;
+$size-card-medium: 16rem !default;
+$size-card-large: 32rem !default;
+
+$size-border: 4px;

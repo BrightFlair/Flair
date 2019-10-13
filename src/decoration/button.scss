@@ -1,0 +1,40 @@
+%d-button {
+	min-width: $size-card-small;
+	background: $palette-button;
+	color: $palette-button-text;
+	cursor: pointer;
+	text-decoration: none;
+
+	&:active {
+		background: darken($palette-button, 5%);
+	}
+
+	&.primary {
+		background: $palette-button-primary;
+		color: $palette-button-primary-text;
+		font-weight: bold;
+
+		&:active {
+			background: darken($palette-button-primary, 5%);
+		}
+	}
+
+	&.minor {
+		min-width: 0;
+		background: transparent;
+		text-align: left;
+
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
+
+		&:hover {
+			box-shadow: none;
+		}
+
+		&:focus {
+			background: $palette-button-primary;
+			color: $palette-button-primary-text;
+		}
+	}
+}
