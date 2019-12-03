@@ -1,4 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpgt/session" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/curl" />
+      <path value="$PROJECT_DIR$/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/cssxpath" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/fetch" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/cron" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/csrf" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/cookie" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/http" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/sync" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/build" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/server" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/path-util" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/database" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/glob" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/config" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/magicalex/write-ini-file" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/webengine" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/domtemplate" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/protectedglobal" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/input" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/cli" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/dom" />
+      <path value="$PROJECT_DIR$/vendor/phpgt/daemon" />
+    </include_path>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
 </project>

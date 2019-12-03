@@ -26,22 +26,22 @@ html {
 	}
 }
 
-@import "variable/size";
-@import "variable/palette";
-@import "variable/font";
-@import "variable/break";
+@import "settings/size";
+@import "settings/palette";
+@import "settings/font";
+@import "settings/break";
 
-@import "pattern/user-input";
-@import "pattern/flex";
+//@import "pattern/?";
 
-@import "decoration/focus-hover";
-@import "decoration/text-input";
-@import "decoration/button";
-@import "decoration/select";
+//@import "decoration/focus-hover";
+//@import "decoration/text-input";
+//@import "decoration/button";
+//@import "decoration/select";
 
+@import "reset/html";
 @import "reset/body";
 @import "reset/h";
-@import "reset/ul-ol-menu";
+@import "reset/ul-ol-menu-dd";
 @import "reset/input";
 @import "reset/button";
 @import "reset/textarea";
@@ -49,5 +49,3 @@ html {
 @import "reset/main";
 @import "reset/img";
 @import "reset/a";
-
-@import "layout/form-labels";
