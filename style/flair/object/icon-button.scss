@@ -1,0 +1,38 @@
+%o-icon-button {
+	@extend %user-input;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: $size-user-input;
+	border: none;
+	background: transparent;
+
+	&:hover {
+		background: $palette-hover-outline;
+	}
+
+	&:focus {
+		background: $palette-focus-outline;
+	}
+
+	&.primary {
+		&:hover {
+			background: $palette-hover-outline-primary;
+		}
+
+		&:focus {
+			background: $palette-focus-outline-primary;
+		}
+	}
+
+	>i {
+		font-style: normal;
+		font-size: 1.5rem;
+		vertical-align: baseline;
+	}
+
+	>span {
+		display: none;
+	}
+}

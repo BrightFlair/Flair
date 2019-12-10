@@ -1,0 +1,121 @@
+%m-side-menu {
+	>h1 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		font-size: $font-size-alpha;
+		padding-top: 1rem;
+
+		a {
+			text-decoration: none;
+			color: $palette-1;
+			padding: 1rem;
+		}
+	}
+
+	@media(min-width: $break-medium) {
+		position: initial;
+	}
+
+	[data-toggle] {
+		@extend %o-icon-button;
+		position: fixed;
+		top: 0;
+		right: 0;
+		margin: 1rem;
+		background: white;
+		z-index: $z-index-menu + 10;
+
+		&::-moz-focus-inner {
+			border: 0;
+		}
+
+		&:focus, &:hover {
+			background: darken(white, 10%);
+		}
+
+		@media(min-width: $break-medium) {
+			display: none;
+		}
+
+		&.toggle {
+			//background-image:
+		}
+
+		& ~ * {
+			@extend %m-side-menu--container;
+		}
+	}
+
+	&--container {
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: $size-side-menu;
+		height: 100%;
+		overflow-y: scroll;
+		z-index: $z-index-menu;
+		background: $palette-list-box;
+
+		transform: translateX(100vw);
+		transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+
+
+		&.toggle {
+			transform: translateX(0);
+			box-shadow: 0 0 4rem 0 rgba(black, 0.5);
+		}
+
+		padding-top: 5rem;
+		@media(min-width: $break-medium) {
+			display: block;
+			transform: initial;
+			padding-top: 4rem;
+			position: initial;
+			right: auto;
+		}
+
+		>ul {
+			>li {
+				padding-top: 1rem;
+
+				h6 {
+					font-size: 0.8rem;
+					font-weight: bold;
+					padding: 0 1rem;
+				}
+
+				a {
+					font-size: 0.9rem;
+					display: block;
+					padding: 0.5rem 1rem;
+					text-decoration: none;
+					color: $palette-list-box-text;
+					transition: background-color 0.1s ease-in-out;
+
+					&:hover, &:focus {
+						background: $palette-list-hover;
+					}
+
+					&:focus {
+						text-decoration: underline;
+					}
+
+					&:active {
+						background: $palette-list-active;
+					}
+				}
+			}
+
+			ul {
+				padding-left: 0;
+			}
+		}
+	}
+
+	&.toggle-parent {
+		%m-side-menu--container {
+
+		}
+	}
+}

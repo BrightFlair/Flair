@@ -1,7 +1,7 @@
 @import "flair/flair";
 
+@import "reset/main";
+
 .c-side-navigation {
-	width: 16rem;
-	height: 100%;
-	background: rgba(black, 0.2);
+	@extend %m-side-menu;
 }

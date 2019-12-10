@@ -18,3 +18,11 @@ $palette-text-body: black !default;
 $palette-text-minor: #888 !default;
 
 $palette-invalid: red !default;
+
+$palette-panel: $palette-textarea !default;
+$palette-list-box: white !default;
+$palette-list-box-text: #444 !default;
+$palette-list-hover: #eee !default;
+$palette-list-active: desaturate($palette-focus-outline, 50%) !default;
+
+$palette-icon: $palette-text-body;

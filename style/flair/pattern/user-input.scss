@@ -1,0 +1,25 @@
+%user-input {
+	box-sizing: border-box;
+	min-width: $size-user-input;
+	height: $size-user-input;
+	cursor: pointer;
+	outline: none;
+
+	&:hover {
+		box-shadow: 0 0 0 4px $palette-hover-outline;
+	}
+
+	&:focus {
+		box-shadow: 0 0 0 4px $palette-focus-outline;
+	}
+
+	&.primary {
+		&:hover {
+			box-shadow: 0 0 0 4px $palette-hover-outline-primary;
+		}
+
+		&:focus {
+			box-shadow: 0 0 0 4px $palette-focus-outline-primary;
+		}
+	}
+}

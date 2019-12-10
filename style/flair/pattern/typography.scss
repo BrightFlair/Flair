@@ -1,0 +1,14 @@
+%typography {
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+		max-width: $size-reading-width;
+	}
+
+	h1 {
+		font-size: $font-size-alpha;
+	}
+
+	p {
+		max-width: $size-reading-width;
+	}
+}

@@ -30,13 +30,7 @@ html {
 @import "settings/palette";
 @import "settings/font";
 @import "settings/break";
-
-//@import "pattern/?";
-
-//@import "decoration/focus-hover";
-//@import "decoration/text-input";
-//@import "decoration/button";
-//@import "decoration/select";
+@import "settings/z-index";
 
 @import "reset/html";
 @import "reset/body";
@@ -49,3 +43,13 @@ html {
 @import "reset/main";
 @import "reset/img";
 @import "reset/a";
+@import "reset/i";
+
+@import "pattern/typography";
+@import "pattern/user-input";
+
+@import "object/icon-button";
+
+@import "module/side-menu";
+
+@import "animation/slide-in";
