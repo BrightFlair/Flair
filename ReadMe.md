@@ -15,12 +15,13 @@ The styles provided by Flair are intentionally basic but allow your stylesheets 
 The layers, organised by specificity:
 
 1. **Variable**: default variables for your application to override where necessary, e.g. palette, size and breakpoint.
-2. **Element**: defines the default style for all elements, normalising across browsers, e.g. h1, button, body.
-3. **Decoration**: basic visual styles for extension by patterns, components or other placeholders, e.g. typography, padding, margin, alignment, background.
-4. **Pattern**: UI patterns that repeat across multiple projects, e.g. navigation, form-fields, vertical-list. 
-5. **Layout**: pre-written collections of patterns and decorations that require their own markup, for common layouts that are more complex than simple patterns, e.g. blog-comments, photo-gallery, calendar.
-6. **Component**: individual, one-off components of user interface that require specific style overrides, e.g. contact-form (extends form-fields), .
-7. **Page**: styles that are only applied to specific pages, or page templates.
+2. **Decoration**: basic visual styles for extension by patterns, components or other placeholders, e.g. typography, padding, margin, alignment, background.
+3. **Element**: defines the default style for all elements, normalising across browsers, e.g. h1, button, body.
+4. **Object**: A single piece of UI that is used across different patterns and layouts, e.g. button, image, user-input.
+5. **Pattern**: UI patterns that repeat across multiple projects, e.g. navigation, form-fields, vertical-list. 
+6. **Layout**: pre-written collections of patterns and decorations that require their own markup, for common layouts that are more complex than simple patterns, e.g. blog-comments, photo-gallery, calendar.
+7. **Component**: individual, one-off components of user interface that require specific style overrides, e.g. contact-form (extends form-fields), .
+8. **Page**: styles that are only applied to specific pages, or page templates.
 
 After importing flair.scss, your application styles can apply patterns, components and layouts to its selectors, override colour palettes and sizing variables, then create or extend its own patterns, components and layouts.
 
